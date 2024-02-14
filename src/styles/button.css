@@ -1,0 +1,42 @@
+.btn-wrapper {
+  position: relative;
+  height: 50px;
+  cursor: pointer;
+  transition: all ease .3s;
+  width: fit-content;
+  z-index: 1;
+}
+.btn-wrapper:hover {
+  opacity: .8;
+}
+.btn-wrapper:hover .btn-shadow {
+  top: 0;
+  left: 0;
+} 
+
+.btn {
+  z-index: 2;
+  position: relative;
+  all: unset;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 120px;
+  height: 50px;
+  min-width: 200px;
+}
+.btn-shadow {
+  border-radius: 120px;
+  border: 3px solid var(--blue);
+  background: transparent;
+  height: 50px;
+  min-width: 200px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  transition: all ease .3s;
+}
+.btn-primary {
+  background-color: var(--blue);
+}
