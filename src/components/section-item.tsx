@@ -29,7 +29,10 @@ const SectionItem = ({
       </div>
       <div className="section-item__text-wrapper">
         <div className="section-item__title">{title}</div>
-        <div className="section-item__detail">{details}</div>
+        {details.map(detail => (
+          <div key={detail} className="section-item__detail">{detail}</div>
+        ))}
+        
         <div className="section-item__link-row">
           <a className="section-item__link" onClick={onLinkClick}>{linkText}</a>
           <div className="section-item__link-line"></div>

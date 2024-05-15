@@ -13,10 +13,10 @@ const AboutUs = () => {
       <div className='about-us-wrapper'>
         <h2 className="about-us__title">Rólunk</h2>
         <div className="about-us__text">
-          Mi vagyunk az Ausztriában magyarul, és szenvedélyünk és elkötelezettségünk a nyelvek iránt arra ösztönöz bennünket, hogy a legjobb nyelvi megoldásokat kínáljuk ügyfeleinknek. Fordító- és tolmácsolási szolgáltatásainkkal olyan hídat építünk, amely lehetővé teszi az ügyintézést, mindezt a lehető leghatékonyabban és pontosabban.
+          Az Ausztriában magyarul csapata azért jött létre, hogy a nehézségekkel küzdő magyaroknak segíthessünk az osztrák ügyintézés útvesztőiben eligazodni. Szenvedélyünk és elkötelezettségünk a hivatásunk iránt arra ösztönöz bennünket, hogy a legjobb nyelvi megoldásokat kínáljuk ügyfeleinknek. Fordító- és tolmácsolási szolgáltatásainkkal olyan hídat építünk, amely lehetővé teszi a gördülékeny ügyintézést, mindezt a lehető leghatékonyabban és pontosabban.
           <br />
           <br />
-          Specializációnk a Biztosítással kapcsolatos ügyek, Családi ellátások, Irodai szolgáltatások, Hivatali és Banki ügyek területére összpontosul. Minden egyes szó, amit fordítunk, és minden egyes mondat, amit tolmácsolunk, az ügyfeleink igényeit és szükségleteit szolgálja. Széleskörű tapasztalatunk és szakértelmünk révén biztosítjuk, hogy nyelvi akadályok ne álljanak ügyeik gyors és hatékony intézése útjába.
+          Specializációink a Biztosítással kapcsolatos ügyek, Családi ellátások, Irodai szolgáltatások, Hivatali és Banki ügyek területére összpontosul. Minden egyes szó, amit fordítunk, és minden egyes mondat, amit tolmácsolunk, az ügyfeleink igényeit és szükségleteit szolgálja. Széleskörű tapasztalatunk és szakértelmünk révén biztosítjuk, hogy nyelvi akadályok ne álljanak ügyeik gyors és hatékony intézése útjába.
         </div>
       </div>
     </div>

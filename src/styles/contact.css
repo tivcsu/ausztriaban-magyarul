@@ -43,7 +43,16 @@
 }
 
 .get-in-touch {
-  padding: 48px 24px 48px 48px;
+  padding: 48px 0 48px 0;
+}
+.get-in-touch .btn-wrapper {
+  width: 100%;
+}
+.get-in-touch .btn-shadow {
+  width: 100%;
+}
+.get-in-touch .btn {
+  width: 100%;
 }
 .get-in-touch__title {
   margin-bottom: 20px;
@@ -80,10 +89,21 @@ textarea::placeholder {
   .contact-item {
     font-size: 16px;
   }
+  .get-in-touch {
+    padding: 48px 24px 48px 48px
+  }
+  .get-in-touch .btn-wrapper {
+    width: fit-content;
+  }
+  .get-in-touch .btn-shadow {
+    width: unset;
+  }
+  .get-in-touch .btn {
+    width: 100%;
+  }
 }
 @media(min-width: 850px) {
   .contact {
     flex-direction: row;
   }
-  
 }
